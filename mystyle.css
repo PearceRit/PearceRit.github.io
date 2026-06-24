@@ -1,0 +1,90 @@
+body {
+    background-color: #141414;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.header{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.header img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.menu {
+    background-color: #202020;
+}
+
+.menu a {
+    color: white;
+    text-decoration-line: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0 2.5%;
+    padding: 20px 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 10%;
+    
+}
+
+#bio {
+    margin: 50px auto;
+    max-width: 80%;
+    font-size: 1em;  
+} 
+
+#bio img {
+    padding: 0 2.5%;
+}
+
+#bio p{ 
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#bloglist ul {
+    list-style: none;
+    margin: 2.5% 30%;
+}
+
+footer {
+    margin: 10% 0;
+    text-align: justify;
+}
+footer a {
+    color: aqua;
+}
+
+#footcontainer {
+   text-align: justify;
+    
+}
+
+#footcontainer:after {
+    content: '';
+    width: 100%;
+    display: inline-block;
+}
+
+.footblock {
+    display: inline-block;
+    font-size: .9em;
+    margin: 0 12.5%;
+    vertical-align: top;
+}
